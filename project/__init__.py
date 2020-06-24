@@ -1,5 +1,5 @@
 
-from decouple import config
+""" from decouple import config
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
@@ -35,4 +35,4 @@ def create_app():
     app.register_blueprint(main_blueprint)
     app.register_blueprint(auth_blueprint)
 
-    return app
+    return app """
